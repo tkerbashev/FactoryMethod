@@ -1,7 +1,9 @@
 ﻿using FactoryMethod;
 
+Console.WriteLine( "Factory Method Creational Design Pattern example\n" );
+
 const int nClients = 10;
-Random rnd = new Random();
+Random rnd = new();
 
 Console.WriteLine( nClients.ToString() + " clients came to our EV dealerships and here is what happenned:" );
 Console.WriteLine();
